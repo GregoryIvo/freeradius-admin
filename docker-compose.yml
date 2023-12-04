@@ -31,7 +31,6 @@ services:
     build:
       context: ./php
     container_name: fradmin-php
-    restart: always
     volumes:
       - "./web/src:/var/www/html"
     restart: always
